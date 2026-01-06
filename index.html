@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title> This is a Gen Z party and everyone's invited...to cringe 😂🎉 </title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #0f0f0f; /* Hitam pekat lebih elegan */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+            overflow-x: hidden;
+            color: white;
+        }
+
+        /* IKLAN ATAS */
+        .bot-ads {
+            max-width: 300px;
+            min-height: 250px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        /* IKLAN BAWA */
+        .ad-overlay {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 320px;
+            height: 50px;
+            z-index: 12;
+        }
+        .ad-top {
+            top: 12px;
+        }               
+        /* CONTAINER VIDEO */
+        .video-wrapper {
+            width: 100%;
+            max-width: 420px;
+            /* Kalkulasi agar pas di layar HP */
+            height: calc(100vh - 340px); 
+            max-height: 650px;
+            background: #000;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            position: relative;
+            border: 1px solid #333;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+            background: #fff;
+        }
+
+        /* Menghilangkan tombol yang mengganggu fokus */
+        video::-webkit-media-controls-fullscreen-button,
+        video::-webkit-media-controls-picture-in-picture-button {
+            display: none !important;
+        }
+
+        @media (max-width: 480px) {
+            .video-wrapper {
+                height: calc(100vh - 310px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ad-overlay ad-top">
+		<script>
+		atOptions = {
+			'key' : 'a56d9957870f34de53762968bb2255c5',
+			'format' : 'iframe',
+			'height' : 50,
+			'width' : 320,
+			'params' : {}
+		};
+		</script>
+		<script src="https://braceslinear.com/a56d9957870f34de53762968bb2255c5/invoke.js"></script>  
+    </div>
+
+    <div class="video-wrapper">
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            controls
+            controlsList="nodownload noremoteplayback nofullscreen"
+            disablePictureInPicture>
+            <source src="https://cdn.videy.co/YBLHi4QX1.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+        </video>
+    </div>
+
+    <div class="bot-ads">  
+		<script>
+		atOptions = {
+			'key' : '89f8d8265af940ee076b4d5e2b851c58',
+			'format' : 'iframe',
+			'height' : 250,
+			'width' : 300,
+			'params' : {}
+		};
+		</script>
+		<script src="https://beginshello.com/89f8d8265af940ee076b4d5e2b851c58/invoke.js"></script>
+	
+</div>
+    <script>
+        const videoElement = document.querySelector("video");
+        
+        // Anti Fullscreen Otomatis
+        const lockScreen = () => {
+            if (document.fullscreenElement) document.exitFullscreen();
+            if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+        };
+
+        document.addEventListener("fullscreenchange", lockScreen);
+        document.addEventListener("webkitfullscreenchange", lockScreen);
+        
+        // Mencegah zoom saat di-klik dua kali
+        videoElement.addEventListener("dblclick", (e) => e.preventDefault());
+    </script>
+
+	<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4992245,4,511,95,18,00000000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+</html>
