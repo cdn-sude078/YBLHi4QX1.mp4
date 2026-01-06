@@ -36,16 +36,14 @@
         }
         /* IKLAN BAWA */
         .ad-overlay {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 320px;
-            height: 50px;
-            z-index: 10;
-        }
-        .ad-top {
-            top: 15px;
-        }               
+            max-width: 320px;
+            min-height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }         
         /* CONTAINER VIDEO */
         .video-wrapper {
             width: 100%;
@@ -103,7 +101,7 @@
             playsinline 
             controls
             controlsList="nodownload noremoteplayback nofullscreen"
-            poster="https://cdn.aceimg.com/f2e9ccc78.jpg">
+            disablePictureInPicture>
             <source src="https://cdn.videy.co/YBLHi4QX1.mp4" type="video/mp4">
             Browser Anda tidak mendukung video.
         </video>
