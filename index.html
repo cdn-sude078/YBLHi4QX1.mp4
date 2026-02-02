@@ -2,97 +2,107 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
 <title> This is a Gen Z party and everyone's invited...to cringe 😂🎉 </title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #F5F5F5;
+    padding: 20px;
+}
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+.video-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: #0f0f0f; /* Hitam pekat lebih elegan */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            padding: 15px;
-            overflow-x: hidden;
-            color: white;
-        }
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
 
-        .ad-overlay {
-            max-width: 320px;
-            min-height: 50px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }         
-        /* CONTAINER VIDEO */
-        .video-wrapper {
-            width: 100%;
-            max-width: 420px;
-            /* Kalkulasi agar pas di layar HP */
-            height: calc(100vh - 340px); 
-            max-height: 650px;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
-            position: relative;
-            border: 1px solid #333;
-        }
+video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
 
-        video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
 
-        @media (max-width: 480px) {
-            .video-wrapper {
-                height: calc(100vh - 310px);
-            }
-        }
-    </style>
+video::-webkit-media-controls-play-button {
+    display: block;
+}
+.read-more-btn {
+    margin-top: 20px;
+    padding: 13px 40px;
+    font-size: 1.19em;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #000, #333);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.read-more-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Iklan overlay */
+.ad-overlay {
+	background: #f0f0f0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.ad-top {
+    top: 12px;
+}
+</style>
 </head>
-<body>
 
-    <div class="ad-overlay ad-top">
+<body>
+<div class="video-title"> This is a Gen Z party and everyone's invited...to cringe 😂🎉 </div>
+<div class="video-wrapper">
+
+<div class="ad-overlay ad-top">
 <script>
   atOptions = {
-    'key' : '88542d881fd03085cb1c1bb5a0cd7a54',
+    'key' : 'a56d9957870f34de53762968bb2255c5',
     'format' : 'iframe',
     'height' : 50,
     'width' : 320,
     'params' : {}
   };
 </script>
-<script src="https://braceslinear.com/88542d881fd03085cb1c1bb5a0cd7a54/invoke.js"></script>
-    </div>
+<script src="https://www.highperformanceformat.com/a56d9957870f34de53762968bb2255c5/invoke.js"></script>
+</div>
 
-    <div class="video-wrapper">
-        <video 
-            autoplay 
-            loop 
-            muted 
-            playsinline 
-            controls
-            controlsList="nodownload noremoteplayback nofullscreen"
-            disablePictureInPicture>
-            <source src="https://cdn.videy.co/YBLHi4QX1.mp4" type="video/mp4">
-        </video>
-    </div>
+<video autoplay loop muted playsinline controls controlsList="nofullscreen nodownload noremoteplayback" disablePictureInPicture>
+    <source src="https://cdn.videy.co/YBLHi4QX1.mp4" type="video/mp4">
+</video>
+</div>
 
-<script async="async" data-cfasync="false" src="https://braceslinear.com/9bcdea4a86809574df124c776acac64d/invoke.js"></script>
-<div id="container-9bcdea4a86809574df124c776acac64d"></div>
+<script async="async" data-cfasync="false" src="https://braceslinear.com/d3e082d534e1581e0f78d3cfe456f0d9/invoke.js"></script>
+<div id="container-d3e082d534e1581e0f78d3cfe456f0d9"></div>
 
-	<!-- Histats.com  START  (aync)-->
+    <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,4992245,4,511,95,18,00000000']);
 _Hasync.push(['Histats.fasi', '1']);
@@ -104,11 +114,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+
 </body>
 </html>
-
-<head>
-<!-- JuicyAds PopUnders v3 Start -->
-<script type="text/javascript" src="https://js.juicyads.com/jp.php?c=44640333v2a4u4r2p28403a4a4&u=https%3A%2F%2Fwww.juicyads.rocks"></script>
-<!-- JuicyAds PopUnders v3 End -->
-<head>
